@@ -1,4 +1,4 @@
-(ns zoo-storm.postgres-json
+(ns pg-json.core
   (:require [cheshire.core :refer [generate-string parse-string]])
   (:import [org.postgresql.util PGobject]))
 
