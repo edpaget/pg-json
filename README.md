@@ -4,11 +4,10 @@ A simple wrapper for saving clojure seqs to postgres json columns. Based on [pgh
 
 ## Usage
 
-(require '[pg-json.core :refer [to-json-column from-json-column])
+`(require '[pg-json.core :refer [to-json-column from-json-column])`
 
 ## License
 
 Copyright © 2014 Edward Paget
 
-Distributed under the Eclipse Public License either version 1.0 or (at
-your option) any later version.
+Distributed under the Apache Public License v2.
