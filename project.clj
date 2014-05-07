@@ -1,8 +1,8 @@
-(defproject pg-json "0.1.0-SNAPSHOT"
-  :description "FIXME: write description"
-  :url "http://example.com/FIXME"
-  :license {:name "Eclipse Public License"
-            :url "http://www.eclipse.org/legal/epl-v10.html"}
+(defproject pg-json "0.2.0-SNAPSHOT"
+  :description "Adds support for storing and retreiving seqs from Postgresql JSON column"
+  :url "https://github.com/edpaget/pg-json"
+  :license {:name "Apache Public License v2"
+            :url "http://www.apache.org/licenses/LICENSE-2.0.txt"}
   :javac-opts ["-target" "1.6" "-source" "1.6"]
   :dependencies [[org.postgresql/postgresql "9.3-1101-jdbc41"]]
   :profiles {:dev
