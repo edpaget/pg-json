@@ -6,7 +6,7 @@
   [x]
   (doto (PGobject.)
     (.setType "json")
-    (.setValue (generate-string this))))
+    (.setValue (generate-string x))))
 
 (defprotocol JSONretrievable
   (from-json-column [this]))
