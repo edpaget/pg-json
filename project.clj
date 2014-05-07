@@ -1,4 +1,4 @@
-(defproject pg-json "0.2.0-SNAPSHOT"
+(defproject pg-json "0.2.0"
   :description "Adds support for storing and retreiving seqs from Postgresql JSON column"
   :url "https://github.com/edpaget/pg-json"
   :license {:name "Apache Public License v2"
